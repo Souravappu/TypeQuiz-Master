@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "question": "What is TypeScript?",
+    "options": [
+      "A programming language",
+      "A JavaScript superset",
+      "A database",
+      "A framework"
+    ],
+    "correctAnswer": "A JavaScript superset",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "question": "Which keyword is used to define an interface in TypeScript?",
+    "options": [
+      "interface",
+      "class",
+      "type",
+      "struct"
+    ],
+    "correctAnswer": "interface",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "question": "What is the purpose of type guards in TypeScript?",
+    "options": [
+      "To protect types from errors",
+      "To narrow down types at runtime",
+      "To guard against unauthorized access",
+      "To optimize performance"
+    ],
+    "correctAnswer": "To narrow down types at runtime",
+    "difficulty": "medium"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following is a valid way to define a generic function in TypeScript?",
+    "options": [
+      "function name<T>(param: T): T",
+      "function name[T](param: T): T",
+      "function name<T>(param): T",
+      "function name<T, param: T>(): T"
+    ],
+    "correctAnswer": "function name<T>(param: T): T",
+    "difficulty": "medium"
+  },
+  {
+    "id": 5,
+    "question": "What does the 'as' keyword do in TypeScript?",
+    "options": [
+      "Performs type assertion",
+      "Creates a new variable",
+      "Imports a module",
+      "Exports a function"
+    ],
+    "correctAnswer": "Performs type assertion",
+    "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "question": "What is the difference between 'interface' and 'type' in TypeScript?",
+    "options": [
+      "No difference, they are interchangeable",
+      "Interfaces can be extended and merged, types cannot",
+      "Types can be extended, interfaces cannot",
+      "Interfaces are only for classes"
+    ],
+    "correctAnswer": "Interfaces can be extended and merged, types cannot",
+    "difficulty": "hard"
+  },
+  {
+    "id": 7,
+    "question": "What does 'async/await' do in TypeScript/JavaScript?",
+    "options": [
+      "Speeds up code execution",
+      "Handles asynchronous operations in a synchronous style",
+      "Converts synchronous code to asynchronous",
+      "Removes callbacks"
+    ],
+    "correctAnswer": "Handles asynchronous operations in a synchronous style",
+    "difficulty": "medium"
+  },
+  {
+    "id": 8,
+    "question": "Which enum declaration is correct in TypeScript?",
+    "options": [
+      "enum Color { Red, Green, Blue }",
+      "enum Color = { Red, Green, Blue }",
+      "enum Color: { Red, Green, Blue }",
+      "enum Color -> { Red, Green, Blue }"
+    ],
+    "correctAnswer": "enum Color { Red, Green, Blue }",
+    "difficulty": "easy"
+  },
+  {
+    "id": 9,
+    "question": "What is a union type in TypeScript?",
+    "options": [
+      "A type that combines multiple interfaces",
+      "A type that can be one of several types",
+      "A type for mathematical unions",
+      "A type that merges arrays"
+    ],
+    "correctAnswer": "A type that can be one of several types",
+    "difficulty": "medium"
+  },
+  {
+    "id": 10,
+    "question": "What is the purpose of the 'unknown' type in TypeScript?",
+    "options": [
+      "To represent any value without type checking",
+      "To represent values we don't know the type of yet, requiring type checking",
+      "To replace 'any' type",
+      "To represent null values"
+    ],
+    "correctAnswer": "To represent values we don't know the type of yet, requiring type checking",
+    "difficulty": "hard"
+  }
+]
+
